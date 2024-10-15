@@ -9,7 +9,7 @@ job('NestJS example') {
         scm('H/5 * * * *')
     }
     wrappers {
-        nodejs('nodejs')
+        nodejs('Node18')
     }
     steps {
         shell("npm install")
